@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { portfolioData } from '@/config/portfolio-data'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
@@ -52,11 +53,15 @@ export default function Gallery() {
           {visibleImages.map((image, index) => (
             <div
               key={currentIndex + index}
-              className="relative aspect-square rounded overflow-hidden bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 hover:scale-105 transition-transform cursor-pointer"
+              className="relative aspect-square rounded overflow-hidden bg-gray-100 dark:bg-gray-800 hover:scale-105 transition-transform cursor-pointer"
             >
-              <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm">
-                {currentIndex + index + 1}
-              </div>
+              <Image
+                src={image}
+                alt={`Gallery image ${currentIndex + index + 1}`}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
             </div>
           ))}
         </div>

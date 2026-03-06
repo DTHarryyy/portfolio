@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Image from 'next/image'
 import { portfolioData } from '@/config/portfolio-data'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
@@ -32,11 +33,15 @@ export default function GalleryCarousel() {
             {gallery.map((image, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-1/5 aspect-square overflow-hidden rounded bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 hover:scale-105 transition-transform cursor-pointer"
+                className="flex-shrink-0 w-1/5 aspect-square overflow-hidden rounded bg-gray-100 dark:bg-gray-800 hover:scale-105 transition-transform cursor-pointer relative"
               >
-                <div className="w-full h-full flex items-center justify-center text-white font-semibold text-xs">
-                  {index + 1}
-                </div>
+                <Image
+                  src={image}
+                  alt={`Gallery image ${index + 1}`}
+                  fill
+                  className="object-cover"
+                  sizes="20vw"
+                />
               </div>
             ))}
           </div>
