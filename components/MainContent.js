@@ -18,7 +18,7 @@ export default function MainContent() {
           {/* About Section */}
           <section className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-5 border border-gray-200 dark:border-gray-800">
             <h2 className="text-lg font-bold mb-3 text-black dark:text-white">About</h2>
-            <div className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+            <div className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
               <p>{personal.bio}</p>
             </div>
           </section>
@@ -29,8 +29,7 @@ export default function MainContent() {
           {/* Projects */}
           <Projects />
           
-          {/* Certifications */}
-          <Certifications />
+          
         </div>
 
         {/* Right Column */}
@@ -38,15 +37,11 @@ export default function MainContent() {
           {/* Experience Section */}
           <Experience />
 
-          {/* Achievement Badge */}
-          <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg shadow-sm p-5 text-white text-center">
-            <p className="text-xs mb-0.5">I'M PART OF</p>
-            <h3 className="text-2xl font-bold mb-0.5">PH 100</h3>
-            <p className="text-xs opacity-90">Philippines Top Developers</p>
-          </div>
-
           {/* Recommendations Carousel */}
           <Recommendations />
+
+          {/* Certifications */}
+          <Certifications />
         </div>
       </div>
 

@@ -11,7 +11,7 @@ export default function About() {
         </h2>
         
         <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6">
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 text-justify">
             {personal.bio}
           </p>
         </div>
