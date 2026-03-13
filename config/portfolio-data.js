@@ -76,19 +76,19 @@ export const portfolioData = {
     {
       title: "LEDGIFY-POS",
       description: "All-in-one AI POS platform for multi-branch businesses with offline capability and fraud detection.",
-      url: "https://project1.com",
+      url: "https://github.com/DTHarryyy/pos",
       image: "/projects/project1.jpg",
     },
     {
       title: "FundMap",
       description: "A Finances Management App with Ai assistant that helps users track expenses, set budgets, and achieve financial goals with personalized insights.",
-      url: "https://project2.com",
+      url: "https://github.com/DTHarryyy/FundMap",
       image: "/projects/project2.jpg",
     },
     {
-      title: "Project Name 3",
-      description: "Mobile application",
-      url: "https://project3.com",
+      title: "RHU",
+      description: "a dental clinic management system that streamlines patient records, appointment scheduling, and billing processes for efficient clinic operations. ",
+      url: "https://github.com/DTHarryyy/rhu", 
       image: "/projects/project3.jpg",
     },
     {
@@ -102,35 +102,33 @@ export const portfolioData = {
   // Certifications
   certifications: [
     {
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      url: "https://certification-url.com",
+      title: "The Complete Full-Stack Web Development Bootcamp",
+      issuer: "Udemy",
+      url: "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
       image: "/certifications/cert1.jpg",
-    },
-    {
-      title: "Professional Scrum Master",
-      issuer: "Scrum.org",
-      url: "https://certification-url.com",
-      image: "/certifications/cert2.jpg",
-    },
-    {
-      title: "Google Cloud Certified",
-      issuer: "Google",
-      url: "https://certification-url.com",
-      image: "/certifications/cert3.jpg",
     },
   ],
 
   // Achievements/Badges
   achievements: [
     {
-      title: "Award Title",
-      description: "Description of your achievement",
+      title: "2nd place in ICT Competition: General Programming",
+      description: "Awarded 2nd place in a general programming competition for developing an efficient algorithm to solve a complex problem.",
       url: "https://achievement-url.com",
     },
+    {
+      title: "Champiom in Web Development",
+      description: "During my 1st year in college in computer science day, I won the championship in a web development competition by creating an innovative and user-friendly website.",
+      url: "https://achievement-url.com",
+    },
+    {
+      title: "2nd place in Web Design",
+      description: "Awarded 2nd place in a web design competition for creating an innovative and user-friendly website.",
+      url: "https://achievement-url.com",
+    },
+    
   ],
 
-  // Recommendations
   recommendations: [
     {
       text: "Your colleague was an exceptional team member who consistently delivered high-quality work. Their technical skills and problem-solving abilities are outstanding.",
@@ -146,27 +144,12 @@ export const portfolioData = {
 
   // Gallery Images
   gallery: [
-    "/gallery/1.jpg",
-    "/gallery/2.jpg",
-    "/gallery/3.jpg",
     "/gallery/4.jpg",
+    "/gallery/3.jpg",
     "/gallery/2.jpg",
     "/gallery/1.jpg",
   ],
 
-  // Memberships
-  memberships: [
-    {
-      name: "Professional Organization 1",
-      url: "https://organization1.com",
-    },
-    {
-      name: "Professional Organization 2",
-      url: "https://organization2.com",
-    },
-  ],
-
-  // Chatbot Knowledge (fill these to improve chatbot answer quality)
   chatbotKnowledge: {
     quickPrompts: [
       "What services does Harry offer?",
