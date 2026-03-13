@@ -133,20 +133,20 @@ export const portfolioData = {
     {
       text: "Your colleague was an exceptional team member who consistently delivered high-quality work. Their technical skills and problem-solving abilities are outstanding.",
       author: "John Doe",
-      position: "CTO at Company Name",
+      position: "CTO at ---- joke lang",
     },
     {
       text: "A talented developer with great attention to detail and strong communication skills. Always willing to help team members.",
       author: "Jane Smith",
-      position: "Engineering Manager at Another Company",
+      position: "Software Engineer at ---- joke lang",
     },
   ],
 
   // Gallery Images
   gallery: [
     "/gallery/4.jpg",
-    "/gallery/3.jpg",
     "/gallery/2.jpg",
+    "/gallery/3.jpg",
     "/gallery/1.jpg",
   ],
 
